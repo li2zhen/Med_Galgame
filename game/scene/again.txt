@@ -1,0 +1,6 @@
+bgm:s_Title.mp3 -volume=50 -enter=500 -unlockname=雲を追いかけて;
+changeBg:room.png -next -unlockname=宿舍;
+changeFigure:luo_question.png -left -transform={"position":{"x":30,"y":10}} -next -zIndex=1;
+setAnimation:enter -target=fig-left -next;
+编剧呜呜呜:很抱歉，你错了呢，接受惩罚？ -fontSize=default;
+choose:接受:dead.txt|再来一次！:again.txt;

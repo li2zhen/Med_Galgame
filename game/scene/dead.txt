@@ -1,0 +1,13 @@
+changeBg:hell.png -next -unlockname=地狱;
+changeFigure:luo_question.png -left -transform={"position":{"x":30,"y":10}} -next -zIndex=1;
+setAnimation:enter-from-bottom -target=fig-left -next;
+changeFigure:A_stand.png -right -transform={"scale":{"x":1.7,"y":1.7}};
+setAnimation:enter-from-right -target=fig-right -next;
+编剧:很抱歉，你爆炸啦 -fontSize=default;
+miniAvatar:A.png;
+{name}:啊啊啊啊啊啊 -fontSize=default -right;
+setAnimation:exit -target=fig-right -next;
+miniAvatar:none;
+编剧:可惜可惜 -fontSize=default;
+intro:你噶了！ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+end;

@@ -1,0 +1,8 @@
+Game_name:重生之我在复旦当牛马;
+Game_key:c745da6a5a7999;
+Title_img:room.png;
+Title_bgm:s_Title.mp3;
+Textbox_theme:imss;
+Description:;
+Package_name:我在复旦当牛马;
+Game_Logo:room.png;

@@ -1,0 +1,6 @@
+bgm:s_Title.mp3 -volume=50 -enter=500 -unlockname=雲を追いかけて;
+changeBg:room.png -next -unlockname=宿舍;
+changeFigure:luo_stand.png -left -next -zIndex=1;
+setAnimation:enter -target=fig-left -next;
+编剧:很好，你赢了|这就是本demo的全部内容了 -fontSize=default -left;
+end;
